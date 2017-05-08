@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.android.fisrtproject.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/business_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/business_name"
+            android:textAllCaps="true"
+            android:paddingLeft="70dp"
+            android:background="@color/colorBusinessBackground"
+            android:textSize="@dimen/business_name"
+            android:textColor="@color/colorBusiness"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/photo_cover"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:paddingTop="@dimen/top_padding"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:scaleType="fitXY"
+            android:src="@drawable/cover" />
+        <TextView
+            android:id="@+id/heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading1"
+            android:paddingLeft="10dp"
+            android:background="@color/colorWorkWithUs"
+            android:paddingTop="@dimen/top_padding"
+            android:textSize="@dimen/heading"
+            android:textColor="@color/colorBusiness"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/paragraph1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paragraph1"
+            android:paddingLeft="10dp"
+            android:background="@color/colorWorkWithUs"
+            android:textSize="@dimen/paragraph"
+            android:textColor="@color/colorBusinessBackground"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading2"
+            android:paddingLeft="10dp"
+            android:paddingTop="@dimen/top_padding"
+            android:background="@color/colorWorkWithUs"
+            android:textSize="@dimen/heading"
+            android:textColor="@color/colorBusiness"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/paragraph2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paragraph2"
+            android:background="@color/colorWorkWithUs"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/paragraph"
+            android:textColor="@color/colorBusinessBackground"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading3"
+            android:paddingLeft="10dp"
+            android:paddingTop="@dimen/top_padding"
+            android:background="@color/colorWorkWithUs"
+            android:textSize="@dimen/heading"
+            android:textColor="@color/colorBusiness"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/paragraph3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paragraph3"
+            android:background="@color/colorWorkWithUs"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/paragraph"
+            android:textColor="@color/colorBusinessBackground"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/timingheading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/timing_heading"
+            android:paddingLeft="10dp"
+            android:background="@color/colorWorkWithUs"
+            android:textSize="@dimen/heading"
+            android:textColor="@color/colorBusiness"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/timingsubheading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/timing_subheading"
+            android:paddingLeft="10dp"
+            android:background="@color/colorWorkWithUs"
+            android:textSize="@dimen/paragraph"
+            android:textColor="@color/colorBusinessBackground"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/contact_us"
+            android:textAllCaps="true"
+            android:paddingLeft="100dp"
+            android:background="@color/colorBusinessBackground"
+            android:textSize="@dimen/heading"
+            android:textColor="@color/colorBusiness"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/addressheading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/address_heading"
+            android:paddingLeft="10dp"
+            android:background="@color/colorBusinessBackground"
+            android:textSize="@dimen/heading"
+            android:textColor="@color/colorWorkWithUs"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/address_subheading"
+            android:paddingLeft="10dp"
+            android:background="@color/colorBusinessBackground"
+            android:textSize="@dimen/paragraph"
+            android:textColor="@color/colorWorkWithUs"
+            android:textStyle="normal" />
+    </LinearLayout>
+</ScrollView>

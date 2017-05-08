@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FisrtProject</string>
+    <string name="search_bar">Search</string>
+    <string name="business_name">AM GRAFIK AB</string>
+    <string name="heading1">Web Development</string>
+    <string name="paragraph1">Our expert team of Website Developers and Digital Strategists use cutting edge technology and best practices to create custom sites that increase user engagement. There are four main parts of website development which are as follow \n 1: Website Design \n 2: Ecommerce website design \n 3: Content Management Systems \n 4: Responsive Design</string>
+    <string name="heading2">Mobile App</string>
+    <string name="paragraph2">We create a mobile app experience that taps into your audience and grows your business online.  There are four main parts of mobile app development which are as follow \n 1: App Strategy \n 2: App design \n 3: App Development \n 4: App Marketing </string>
+    <string name="heading3">Design and Branding</string>
+    <string name="paragraph3">Our experts brings creative designs that taps into your audience and grows your business online.  There are four main parts of mobile app development which are as follow \n 1: Logo Design \n 2: Graphics design \n 3: Print Design \n 4: Product Photography </string>
+    <string name="contact_us">Work with us</string>
+    <string name="address_heading">ADDRESS</string>
+    <string name="address_subheading">AM GRAFIK AB \nHumleplan 25 lgh 1302 \n572 32 Oskarshamn Sweden \nE-post: info@amgrafik.se \nMobile: +46 (0)72 672 32 00 \nWebsite: www.amgrafik.se</string>
+    <string name="timing_heading">OPENING HOURS</string>
+    <string name="timing_subheading">MON-THU &#160; 9:00 &#160;18:00 \nFRI &#160;9:00 &#160;15:00 \nSAT &#160;9:00 &#160;13:00 \nSUN &#160;Closed </string>
+</resources>
